@@ -1,0 +1,10 @@
+{
+  "song_name": {
+    "sounds": [
+      {
+        "name": "heartstrings:song_name",
+        "stream": true
+      }
+    ]
+  }
+}

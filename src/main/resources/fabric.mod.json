@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "heartsinharmony",
+	"id": "heartstrings",
 	"version": "${version}",
-	"name": "Hearts in harmony",
+	"name": "Heartstrings",
 	"description": "Some wicked love and valantines themed mod.",
 	"authors": [
 		"Mikits"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/Mikits",
-		"sources": "https://github.com/Mikits4/Hearts_in_Harmony"
+		"sources": "https://github.com/Mikits4/Heartstrings"
 	},
 	"license": "MIT",
-	"icon": "assets/heartsinharmony/icon.png",
+	"icon": "assets/heartstrings/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmony"
+			"net.mikits.heartstrings.Heartstrings"
 		],
 		"fabric-datagen": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyDataGenerator"
+			"net.mikits.heartstrings.HeartstringsDataGenerator"
 		],
 		"client": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyClient"
+			"net.mikits.heartstrings.HeartstringsClient"
 		]
 	},
 	"mixins": [
-		"heartsinharmony.mixins.json"
+		"heartstrings.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
